@@ -3,8 +3,46 @@
 
 body{
     background-color: #1f212a;
+
 }
-.navbar{
-    background-color: #ffc412;
-    height: 90px;
+nav{
+    background-color: #05161a;
+   
 }
+
+.container-fluid{
+    background-color: #6da5c0;
+}
+.header_div{
+    height: 580px;
+}
+
+
+  .img{
+    position: absolute; 
+    top:-50px; 
+    z-index: 500
+  }
+  .div{
+    width: 200px; 
+    height: 185px; 
+    background-color: #05161a; 
+    position: absolute; 
+    top: 390px; 
+    left: 103px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .img {
+      top:-320px /* Change the order of flex items in mobile view */
+    }
+    .header_div{
+        height: 740px;
+    }
+    .div{
+        top: 60px;
+        left: 75px;
+        height: 165px;
+    }
+  }
+
